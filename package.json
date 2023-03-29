@@ -1,0 +1,25 @@
+{
+  "name": "webhook_wpp",
+  "version": "1.0.0",
+  "description": "webhoot for whatsapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mauricio Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.2.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
